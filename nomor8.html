@@ -1,0 +1,59 @@
+<!DOCTYPE html>8
+<html lang="en">
+<head>
+    <title>gaperlu title</title>
+</head>
+<body>
+    <div class="menu">
+        <ul class="horizontal">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Layanan</a></li>
+        </ul>
+    </div>
+    
+    <nav>
+        <ul class="vertical">
+            <li><a href="#">Daftar</a></li>
+            <li><a href="#">Layanan lainnya</a></li>
+            <li><a href="#">Bantuan</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+<style>
+    .menu { margin:0; width:100%; position:sticky;}
+    nav { width: 30%; height: 200px; background: #00ffff;}
+    ul.horizontal{
+        list-style-type: none;
+        padding: 0;
+        margin: 0%;
+        overflow: hidden;
+        background-color: aquamarine;
+    }
+    ul.horizontal li {float: left;}
+    ul.horizontal li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        text-align: center;
+    }
+    ul.horizontal li a:hover {background-color: aquamarine;}
+    ul.vertical{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: aqua;
+    }
+    ul.vertical li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 15px;
+        text-align: left;
+    }
+    ul.vertical li a:hover {background-color: aqua;}
+</style>
